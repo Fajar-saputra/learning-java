@@ -1,9 +1,9 @@
 public class Pegawai extends Identitas{
     // atribut
-    int nip;
-    int idKaryawan;
-    String jabatan;
-    int gaji;
+    private int nip;
+    private int idKaryawan;
+    private String jabatan;
+    private int gaji;
 
     // constructor
     Pegawai(String nama, String alamat, int umur, String jenisKelamin, String noHp, String email, int nip, int idKaryawan, String jabatan, int gaji){

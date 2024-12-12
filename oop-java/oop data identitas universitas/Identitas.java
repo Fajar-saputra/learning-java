@@ -1,12 +1,12 @@
 // parent class atau induk class
 public class Identitas {
     // atribut
-     String nama;
-     String alamat;
+    String nama;
+    String alamat;
      int umur;
-     String jenisKelamin;
-     String noHp;
-     String email;
+    String jenisKelamin;
+    String noHp;
+    String email;
 
     //  constructor
      Identitas(String nama, String alamat,int umur, String jenisKelamin, String noHp, String email){
@@ -20,6 +20,56 @@ public class Identitas {
     
     Identitas(){
         // default constructor
+    }
+
+    // setter
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
+    }
+
+    public void setUmur(int umur) {
+        this.umur = umur;
+    }
+
+    public void setJenisKelamin(String jenisKelamin) {
+        this.jenisKelamin = jenisKelamin;
+    }
+
+    public void setNoHp(String noHp) {
+        this.noHp = noHp;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    // getter
+    public String getNama() {
+        return nama;
+    }
+
+    public String getAlamat() {
+        return alamat;
+    }
+
+    public int getUmur() {
+        return umur;
+    }
+
+    public String getJenisKelamin() {
+        return jenisKelamin;
+    }
+
+    public String getNoHp() {
+        return noHp;
+    }
+
+    public String getEmail() {
+        return email;
     }
 
     // method

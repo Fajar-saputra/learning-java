@@ -1,8 +1,8 @@
 // child class atau turunan class
 public class Mahasiswa extends Identitas{
-    String nim;
-    String jurusan;
-    String fakultas;
+    private String nim;
+    private String jurusan;
+    private String fakultas;
 
     Mahasiswa(String nama, String alamat, int umur, String jenisKelamin, String noHp, String email, String nim, String jurusan, String fakultas){
         super(nama, alamat, umur, jenisKelamin, noHp, email);

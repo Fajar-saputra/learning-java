@@ -1,13 +1,13 @@
 public class Nilai {
-    double IPKkomputerMasyarakat;
-    double IPKarsitekturKomputer;
-    double IPKinteraksiManusianDanKomputer;
-    double IPKbasisData;
-    double IPKpemrogramanBerorientasiObjek;
-    double IPKgrafikaKomputer;
-    double IPKpendidikanKarakter;
-    double IPKaljabarLinear;
-    double IPKkewirausahaan;
+    private double IPKkomputerMasyarakat;
+    private double IPKarsitekturKomputer;
+    private double IPKinteraksiManusianDanKomputer;
+    private double IPKbasisData;
+    private double IPKpemrogramanBerorientasiObjek;
+    private double IPKgrafikaKomputer;
+    private double IPKpendidikanKarakter;
+    private double IPKaljabarLinear;
+    private double IPKkewirausahaan;
 
     // constructor
     Nilai(double IPKkomputerMasyarakat, double IPKarsitekturKomputer, double IPKinteraksiManusianDanKomputer, double IPKbasisData, double IPKpemrogramanBerorientasiObjek, double IPKgrafikaKomputer, double IPKpendidikanKarakter, double IPKaljabarLinear, double IPKkewirausahaan) {

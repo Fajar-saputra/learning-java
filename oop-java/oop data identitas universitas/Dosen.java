@@ -1,13 +1,13 @@
 public class Dosen extends Pegawai{
     // atribut
-    String nidn;
-    String fakultas;  
-    String ajarProdi;
-    String pendidikanTerakhir;
-    String programStudi;
-    String statusDosen;
-    String jabatanSaatIni;
-    String jabatanFungsional;
+    private String nidn;
+    private String fakultas;  
+    private String ajarProdi;
+    private String pendidikanTerakhir;
+    private String programStudi;
+    private String statusDosen;
+    private String jabatanSaatIni;
+    private String jabatanFungsional;
 
 
     // constructor
