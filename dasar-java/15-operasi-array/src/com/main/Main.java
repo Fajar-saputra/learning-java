@@ -42,6 +42,16 @@ public class Main {
         selectionSort(angkaRandom5);
         insertionSort(angkaRandom5);
 
+        long[] arrayLong = {
+                10,90,80,67,26
+        };
+
+        arrayLong[0] = 100;
+
+        System.out.println(arrayLong[0]);
+        System.out.println(arrayLong[1]);
+        System.out.println(arrayLong.length);
+
     }
 
 
